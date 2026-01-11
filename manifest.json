@@ -2,7 +2,7 @@
   "name": "AI Photo & Invoice PWA",
   "short_name": "AI Photo",
   "description": "AI-powered photo processing tool with Invoice OCR, aesthetic filters, and AR face overlays",
-  "start_url": "/",
+  "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f8fafc",
@@ -62,7 +62,7 @@
       "name": "發票辨識",
       "short_name": "OCR",
       "description": "快速辨識發票內容",
-      "url": "/?tab=invoice",
+      "url": "./index.html?tab=invoice",
       "icons": [
         {
           "src": "icons/icon-192.png",
@@ -74,7 +74,7 @@
       "name": "美感濾鏡",
       "short_name": "濾鏡",
       "description": "套用美感濾鏡",
-      "url": "/?tab=filter",
+      "url": "./index.html?tab=filter",
       "icons": [
         {
           "src": "icons/icon-192.png",
@@ -86,7 +86,7 @@
       "name": "AR 貓耳",
       "short_name": "AR",
       "description": "添加 AR 貓耳特效",
-      "url": "/?tab=ar",
+      "url": "./index.html?tab=ar",
       "icons": [
         {
           "src": "icons/icon-192.png",
